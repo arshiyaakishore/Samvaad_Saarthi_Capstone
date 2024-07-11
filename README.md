@@ -1,4 +1,2 @@
 # Samvaad_Saarthi_Capstone
-
-Project
-requirements
+smart glove translator
