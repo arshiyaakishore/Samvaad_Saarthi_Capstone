@@ -1,29 +1,66 @@
-# Samvaad_Saarthi_Capstone
+# Samvaad Saarthi Capstone Project  
+### Smart Glove Translator for Hindi Sign Language 
 
+---
 
-In order to improve communication accessibility, a wearable gadget that can
-translate Indian Sign Language (ISL) motions into real-time text and vocal output
-is being created by our project, the Smart Glove Translator.
+## 📌 Project Overview
 
-The glove combines
-accelerometers, flex sensors, and Arduino microcontrollers to detect hand
-movements and gestures correctly. By concentrating on ISL, the unique
-requirements of the deaf and hard-of-hearing members of the Indian community
-can be better met and their capacity for interpersonal communication can be
-improved.
+The **Smart Glove Translator** is a wearable gadget designed to enhance communication accessibility by translating **Hindi Sign Language** gestures into **real-time text and speech output**.
 
-The Smart Glove Translator keeps a database of frequently used words and phrases
-in its memory to facilitate smooth communication. A certain motion connected to
-a sentence that has been saved is identified by the glove's built-in processing power,
-and then the relevant text is pulled out of memory. The intended message can then
-be clearly and audibly sent using a Bluetooth-connected speaker that receives the
-synthesized text. This novel method ensures adaptability and ease of use for users
-in various communication contexts.
-User-centered design and practicality, in addition to technological innovation, are
-prioritized in our project. The accuracy and reactivity of the Smart Glove Translator
-to work well in everyday situations are aimed to be improved by us. This will be
-done by iteratively testing and soliciting feedback from fluent speakers of ISL.
-People with hearing impairments are aimed to be enabled to participate more boldly
-and inclusively in everyday encounters, therefore encouraging accessibility and
-creating a more inclusive society by utilizing developments in sensor technology
-and signal processing algorithms.
+By integrating **accelerometers**, **flex sensors**, and **Arduino microcontrollers**, the glove accurately detects hand movements and gestures, focusing specifically on the needs of the **deaf and hard-of-hearing** community in India. This innovation aims to bridge the communication gap and empower more inclusive interpersonal interactions.
+
+---
+
+## 🔧 How It Works
+
+- **Sensors & Hardware**:  
+  The glove is embedded with:
+  - Flex sensors to detect finger bending  
+  - Accelerometers for motion tracking  
+  - Arduino microcontroller for data processing
+
+- **Gesture Recognition & Translation**:  
+  Predefined ISL gestures are stored in the glove’s onboard memory. When a gesture is performed:
+  1. Sensor data is processed by the microcontroller.  
+  2. The corresponding word or phrase is matched from the internal database.  
+  3. The recognized text is synthesized and transmitted via **Bluetooth**.
+
+- **Output Delivery**:  
+  The translated message is delivered both as **text** (on a display or app) and **audio output** via a **Bluetooth-connected speaker**, ensuring clear and accessible communication.
+
+---
+
+## 🧠 Features
+
+- 🧤 Real-time translation of Indian Sign Language gestures  
+- 📲 Text and audio output using Bluetooth-enabled devices  
+- 📚 Onboard memory for frequently used phrases  
+- 🔁 Responsive feedback system for improved accuracy  
+- 🧪 Iterative testing with fluent ISL speakers  
+- 🌐 Designed for practical, day-to-day interactions
+
+---
+
+## 🎯 Objectives
+
+- Promote **inclusive communication** in public and private spaces  
+- Enhance **self-reliance** and **confidence** in individuals with hearing impairments  
+- Utilize **sensor technology** and **signal processing** to improve gesture detection accuracy  
+- Ensure **user-centered design** through continuous feedback and development
+
+---
+
+## 🔄 Future Enhancements
+
+- Expand vocabulary and custom phrase mapping  
+- Integrate machine learning for gesture classification  
+- Develop a companion mobile app for real-time monitoring and updates  
+- Enable multilingual support for regional languages
+
+---
+
+## 🙌 Impact
+
+By leveraging modern hardware and smart processing, the **Smart Glove Translator** is more than a technological tool—it’s a step toward **social inclusion**, giving voice to those who communicate with their hands and enabling them to be heard more clearly in society.
+
+---
